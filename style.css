@@ -1,0 +1,93 @@
+body {
+  color: white;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(60,60,95);
+  align-items: center;
+  height: 70px;
+
+}
+
+.header-logo {
+  width: 200px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.header-navbar {
+  display: flex;
+  width: 1100px;
+  justify-content: space-between;
+  
+}
+
+.navbar-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-info .info {
+  display: flex;
+  flex-direction: row;
+  margin: auto 15px;
+  align-items: center;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.navbar-info .icon {
+  margin-right: 20px;
+}
+.navbar-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-menu a {
+  margin: auto 20px;
+}
+.navbar-profile {
+  display: flex;
+  align-items: center;
+}
+
+.icon img{
+  height: 25px;
+  width: 25px;
+
+}
+
+.navbar-menu img{
+  height: 25px;
+  width: 25px;
+}
+
+.navbar-profile {
+  background-color: rgb(73,73,104);
+  width: 200px;
+  margin-right: 10px;
+  height: 43px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.profile-icon{
+  height: 35px;
+  width: 35px;
+
+}
+
+.profile-dropdown {
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
