@@ -91,3 +91,13 @@ body {
   width: 20px;
   margin-right: 12px;
 }
+
+.menu {
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  align-items: center;
+  font-size: 18px;
+  flex-shrink: inherit;
+}
